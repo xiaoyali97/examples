@@ -1,0 +1,20 @@
+{
+  "type": "record",
+  "namespace": "com.mycorp.mynamespace",
+  "name": "sampleRecord",
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "from",
+      "type": "string"
+    },
+    {
+      "name": "to",
+      "type": "string"
+    }
+  ]
+}

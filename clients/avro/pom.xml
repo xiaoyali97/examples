@@ -107,6 +107,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <sourceDirectory>${project.basedir}/src/main/resources/avro/io/confluent/examples/clients/basicavro/</sourceDirectory>
             <includes>
               <include>Payment.avsc</include>
+                <include>Flight.avsc</include>
             </includes>
             <outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
           </configuration>
